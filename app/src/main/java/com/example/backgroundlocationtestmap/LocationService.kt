@@ -54,7 +54,7 @@ class LocationService: Service() {
         when(intent?.action) {
             ACTION_START -> start()
             ACTION_STOP -> stop()
-
+            //dsdg
         }
         return super.onStartCommand(intent, flags, startId)
     }
